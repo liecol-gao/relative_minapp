@@ -1,0 +1,37 @@
+<view id="aboutUs">  
+    <view class="box">  
+      <view ><image class='view_img' src='../images/shuoming.png'></image> 帮助：</view> 
+      <view class="second">点击男女选择性别;</view>
+      <view class="second">反查按钮可反向查询;</view>
+      <view class="second"> 后退图标删除上一层关系;</view>
+      <view class="second">清除图标清除所有输入。</view>
+      <view ><image class='view_img' src='../images/shouquan.png'></image>
+         授权：
+      </view>
+      <view class="second">用户授权仅用于头像和昵称显示；</view>
+      <view class="second">保存图片授权仅用于存储分享图片到本地；</view>
+      <view class="second">所有数据亲戚关系检测不做任何存储。</view>
+      <view ><image class='view_img' src='../images/fankui.png'></image>
+         意见反馈：
+         <view  class="second feedback"><button open-type="feedback">点击反馈</button></view>
+      </view>
+      <view class='contact_view'><image class='view_img' src='../images/contact.png'></image>
+         联系开发：
+         <view  class="second feedback"><button open-type="contact">联系开发</button></view>
+      </view>
+      <view class='share_title'><image class='view_img' src='../images/share_icon.png'></image>
+         分享：
+      </view>
+    </view> 
+    <view class='share_img_box'>
+    <image class='share_img' src="https://coding.net/u/liecol/p/liecol/git/raw/xcx/qqcx_share.png"></image>
+    <button type="defaule" class='click_downlowd' bindtap="saveImg">点击保存图片</button>
+    <view class='desc'>注：由于微信openSetting方法弃用，无法直接进入设置页，如授权失败，请进入设置页开启授权。</view>
+    <view class="copyright" >  
+        Copyright © liecol-晓斌 2018-12-31 v1.0
+    </view>  
+    </view>
+    
+</view>  
+
+

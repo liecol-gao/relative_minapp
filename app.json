@@ -1,0 +1,18 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/welcome/welcome",
+    "pages/about/about"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#222",
+    "navigationBarTitleText": "亲戚关系检测",
+    "navigationBarTextStyle":"white"
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wx18a2ac992306a5a4"  ]
+  
+}

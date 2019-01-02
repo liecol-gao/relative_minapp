@@ -1,0 +1,35 @@
+/* pages/about/about.wxss */
+
+.box{
+  margin:10px 0 0 30px; 
+  line-height: 26px;
+  display:inline; 
+  float:left;
+  font-size:12px;
+  overflow: hidden;
+}
+.second{
+  text-indent:1em;  
+}
+
+.copyright{ 
+  color: #999;
+  width: 100%;
+  height: 3vh;
+  line-height: 3vh;
+  display: flex;
+  margin-top: 10px;
+  font-size: 12px;
+  justify-content: center;
+}
+
+.view_img{width: 30rpx;height: 30rpx;}
+.share_img_box{width: 100%; height: 586px;float: left;text-align: center;margin-top: 1rem;}
+.share_img{width: 297px;height: 586px;}
+.click_downlowd{width: 40%;height:90rpx;text-align: center;margin-top: 10rpx;color: #666;font-size: 14px;line-height: 90rpx;border: 1px solid #eee;}
+.feedback{width: 60%;height: 2vh;}
+.feedback button{font-size: 14px;margin-left: 0.5rem;background: #fff;}
+.share_title{margin-top: 5vh;}
+.contact_view{margin-top: 5vh;}
+.desc{font-size: 12px;width: 70%;color: #999;text-align: center;margin: 0 auto; margin-top: 3vh;}
+

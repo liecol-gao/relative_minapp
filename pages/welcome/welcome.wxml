@@ -1,0 +1,56 @@
+
+  <!-- 用来显示Ta称呼我 
+  <view class="section">
+    <textarea  class="TaCallMe" value='我称呼TA' disabled='true'   />
+  </view>
+  -->
+  <view  class='bg_image'>
+    <image src='../images/detail_bg.png'></image>
+  </view>
+  <view class='checked_box'>
+  <!-- 用来显示用户的选项比如我的儿子的爸爸  -->
+  <view >
+    <textarea  class="textstyle" placeholder="请选择性别和亲属~" placeholder-style="color:#dcdcdc;" value='{{screenData}}' disabled='true' maxlength="34"  />
+  </view>
+
+  <!-- 用来显示结果 -->
+  <view >
+    <textarea  class="result-style" value='{{result}}' disabled='true' style="text-align:center"  />
+  </view>
+  <!-- 男女选择 判断是否被选中-->
+  <view class="body-view"  >
+      <image class="sex_change" bindtap="SexChame" id="male"  src="{{male_src}}"></image>
+      <image class="sex_change" bindtap="SexChame" id="female" src="{{female_src}}"></image>
+  </view>
+
+  <!-- 显示按钮功能 style="height:{{second_height}}px"-->
+  <view class="second" >
+    <view class="btnGroup"  >       
+          <image  bindtap="clickButton" id="{{id1}}" class="item_pic" src="../images/zhangfu.png"></image>
+          <image bindtap="clickButton" id="{{id2}}" class="item_pic" src="../images/qizi.png"></image>
+          <image bindtap="clickButton" id="{{id3}}" class="item_pic" src="../images/back.png"></image>
+          <image bindtap="clickButton" id="{{id4}}" class="item_pic" src="../images/delete.png"></image>
+    </view>
+
+    <view class="btnGroup">
+          <image bindtap="clickButton" id="{{id5}}" class="item_pic" src="../images/fuqin.png"></image>
+          <image bindtap="clickButton" id="{{id6}}" class="item_pic" src="../images/mama.png"></image>
+          <image bindtap="clickButton" id="{{id11}}" class="item_pic" src="../images/erzi.png"></image>
+          <image bindtap="clickButton" id="{{id12}}" class="item_pic" src="../images/nver.png"></image>
+    </view>
+    <view class="btnGroup">
+          <image bindtap="clickButton" id="{{id7}}" class="item_pic" src="../images/gege.png"></image>
+          <image bindtap="clickButton" id="{{id8}}" class="item_pic" src="../images/didi.png"></image>
+          <image bindtap="clickButton" id="{{id9}}" class="item_pic" src="../images/jiejie.png"></image>
+          <image bindtap="clickButton" id="{{id10}}" class="item_pic" src="../images/meimei.png"></image>
+    </view>
+    <view class="btnGroup">
+          <image bindtap="clickButton" id="{{id15}}" class="item_pic" src="../images/help.png"></image>
+          <navigator target = "miniProgram" app-id="wx18a2ac992306a5a4" path="pages/apps/largess/detail?accountId=6589706" open-type='navigate'>
+<image class="item_pic" src="../images/money.png"></image></navigator>
+          <button style='border:none;' class='btn_share' open-type='share'><image bindtap="onShareAppMessage" id="{{id13}}" class="item_pic" src="../images/share.png"></image></button>
+          <!-- <image bindtap="onShareAppMessage" id="{{id13}}" class="item_pic" src="../images/share.png"></image> -->
+          <image bindtap="clickButton" id="{{id13}}" class="item_pic" src="../images/fancha.png"></image>
+    </view>
+  </view>
+  </view>
